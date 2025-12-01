@@ -17,7 +17,8 @@ from sklearn.metrics import classification_report, roc_auc_score, accuracy_score
 # -------------------------
 # CONFIG
 # -------------------------
-DATA_PATH = "https://raw.githubusercontent.com/yaoemma/financial-inclusion-app/main/Financial_inclusion_dataset.csv"
+DATA_PATH = "https://raw.githubusercontent.com/yaoemma/financial-inclusion-app/main/data/Financial_inclusion_dataset.csv"
+
 MODEL_PATH = "financial_inclusion_model.joblib"
 RANDOM_STATE = 42
 TEST_SIZE = 0.2
