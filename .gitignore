@@ -1,0 +1,17 @@
+# Ignorer le fichier modèle
+financial_inclusion_model.joblib
+*.joblib
+
+# Dossiers Python
+__pycache__/
+*.pyc
+
+# Environnement virtuel
+.venv/
+venv/
+
+# Cache Streamlit
+.streamlit/
+
+# Fichiers temporaires
+*.log
